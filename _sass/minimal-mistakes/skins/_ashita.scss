@@ -1,0 +1,135 @@
+/*
+    Ashita Minimal Mistakes Skin
+    (c) 2018 atom0s
+*/
+
+/**
+ * Main Theme Colors
+ */
+$background-color           : #313541 !default;                             // overall background
+$text-color                 : rgb(230, 233, 236) !default;                  // overall text
+$primary-color              : #D35547 !default;                             // links, navigation block
+$border-color               : mix(#fff, $background-color, 20%) !default;   // borders
+$code-background-color      : mix(#fff, $background-color, 15%) !default;   // `<content>` background
+$code-background-color-dark : mix(#fff, $background-color, 20%) !default;   // (Unknown)
+$form-background-color      : mix(#000, $background-color, 15%) !default;   // (Unknown)
+$footer-background-color    : #282C37 !default;                             // footer background
+$link-color                 : #189CF1;                                      // links
+$link-color-hover           : mix(#fff, $link-color, 25%) !default;         // links (hover)
+$link-color-visited         : #189CF1 !default;                             // links (visited)
+$masthead-link-color        : $text-color !default;                           // header links
+$masthead-link-color-hover  : mix(#000, $text-color, 20%) !default;         // header links (hover)
+$navicon-link-color-hover   : mix(#000, $background-color, 30%) !default;   // (Unknown)
+
+/**
+ * Syntax Highlighting Colors
+ */
+$base00: #282C37; // background
+$base01: #2e3c43;
+$base02: #314549;
+$base03: #546e7a;
+$base04: #c3e88d; // comments
+$base05: #eeffff;
+$base06: #eeffff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #82aaff;
+$base0e: #c792ea;
+$base0f: #ff5370;
+
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
+}
+
+/**
+ * Misc Overrides
+ */
+h1, h2, h3,
+.nav__sub-title {
+    color: #D35547;
+}
+
+.masthead {
+    background-color: $footer-background-color !important;
+}
+#site-nav {
+    background-color: transparent !important;
+}
+
+.toc {
+    border-radius: 0 !important;
+    text-transform: none !important;
+}
+.toc .nav__title {
+    border-radius: 0 !important;
+}
+
+ul.toc__menu > li > a {
+    color: #D35547 !important;
+}
+
+pre.highlight {
+    overflow: auto !important;
+    word-wrap: normal !important;
+    border: 1px solid #21242D !important;
+    border-radius: 2px !important;
+    box-shadow: inset 0 0 0.5em #21242D !important;
+    padding: .7em 1em !important;
+}
+
+/**
+ * Notice Box Overrides
+ */
+.notice--danger {
+    background-color    : #f8d7da !important;
+    border-color        : #f5c6cb !important;
+}
+.notice--info {
+    background-color    : #cce5ff !important;
+    border-color        : #b8daff !important;
+}
+.notice--success {
+    background-color    : #d4edda !important;
+    border-color        : #c3e6cb !important;
+}
+.notice--warning {
+    background-color    : #fff3cd !important;
+    border-color        : #ffeeba !important;
+}
+
+/**
+ * Links
+ */
+a, a:hover, a:visited {
+    text-decoration: none !important;
+}
+
+/**
+ * Navbars
+ */
+div {
+    ::-webkit-scrollbar {
+        height: 5px;
+        width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #D35547;
+        border-radius: 15px;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+    }
+}
