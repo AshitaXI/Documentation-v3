@@ -1,5 +1,5 @@
 ---
-permalink: /addons/singlerace
+permalink: /addons/singlerace/
 title: SingleRace
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/ime
+permalink: /addons/ime/
 title: IME
 ---
 

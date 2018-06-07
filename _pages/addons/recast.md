@@ -1,5 +1,5 @@
 ---
-permalink: /addons/recast
+permalink: /addons/recast/
 title: Recast
 ---
 

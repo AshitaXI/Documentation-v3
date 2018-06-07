@@ -1,5 +1,5 @@
 ---
-permalink: /addons/nomad
+permalink: /addons/nomad/
 title: Nomad
 ---
 

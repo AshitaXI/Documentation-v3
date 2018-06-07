@@ -1,5 +1,5 @@
 ---
-permalink: /addons/drawdistance
+permalink: /addons/drawdistance/
 title: DrawDistance
 ---
 

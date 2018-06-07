@@ -1,5 +1,5 @@
 ---
-permalink: /addons/gmcommand
+permalink: /addons/gmcommand/
 title: GMCommand
 ---
 

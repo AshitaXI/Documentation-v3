@@ -1,5 +1,5 @@
 ---
-permalink: /addons/gateway
+permalink: /addons/gateway/
 title: Gateway
 ---
 

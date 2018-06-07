@@ -1,5 +1,5 @@
 ---
-permalink: /addons/enternity
+permalink: /addons/enternity/
 title: Enternity
 ---
 

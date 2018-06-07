@@ -1,5 +1,5 @@
 ---
-permalink: /addons/filterless
+permalink: /addons/filterless/
 title: Filterless
 ---
 

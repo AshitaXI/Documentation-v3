@@ -1,5 +1,5 @@
 ---
-permalink: /addons/tparty
+permalink: /addons/tparty/
 title: TParty
 ---
 

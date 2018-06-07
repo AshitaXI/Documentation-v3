@@ -1,5 +1,5 @@
 ---
-permalink: /addons/instantah
+permalink: /addons/instantah/
 title: InstantAH
 ---
 

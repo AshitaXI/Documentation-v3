@@ -1,5 +1,5 @@
 ---
-permalink: /addons/links
+permalink: /addons/links/
 title: Links
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/filterscan
+permalink: /addons/filterscan/
 title: FilterScan
 ---
 

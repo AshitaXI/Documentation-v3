@@ -1,5 +1,5 @@
 ---
-permalink: /addons/cfhblock
+permalink: /addons/cfhblock/
 title: CFHBlock
 ---
 

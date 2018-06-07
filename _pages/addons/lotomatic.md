@@ -1,5 +1,5 @@
 ---
-permalink: /addons/lotomatic
+permalink: /addons/lotomatic/
 title: Lotomatic
 ---
 

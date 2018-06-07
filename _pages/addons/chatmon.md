@@ -1,5 +1,5 @@
 ---
-permalink: /addons/chatmon
+permalink: /addons/chatmon/
 title: ChatMon
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/repeater
+permalink: /addons/repeater/
 title: Repeater
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/blusets
+permalink: /addons/blusets/
 title: BluSets
 ---
 

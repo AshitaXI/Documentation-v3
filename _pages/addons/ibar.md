@@ -1,5 +1,5 @@
 ---
-permalink: /addons/ibar
+permalink: /addons/ibar/
 title: iBar
 ---
 

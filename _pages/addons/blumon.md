@@ -1,5 +1,5 @@
 ---
-permalink: /addons/blumon
+permalink: /addons/blumon/
 title: Blumon
 ---
 

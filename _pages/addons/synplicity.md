@@ -1,5 +1,5 @@
 ---
-permalink: /addons/synplicity
+permalink: /addons/synplicity/
 title: Synplicity
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/autorespond
+permalink: /addons/autorespond/
 title: Auto Respond
 ---
 

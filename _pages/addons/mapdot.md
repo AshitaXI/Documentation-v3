@@ -1,5 +1,5 @@
 ---
-permalink: /addons/mapdot
+permalink: /addons/mapdot/
 title: mapdot
 ---
 

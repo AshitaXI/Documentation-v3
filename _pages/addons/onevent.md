@@ -1,5 +1,5 @@
 ---
-permalink: /addons/onevent
+permalink: /addons/onevent/
 title: OnEvent
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/zoom
+permalink: /addons/zoom/
 title: Zoom
 ---
 

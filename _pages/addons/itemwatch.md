@@ -1,5 +1,5 @@
 ---
-permalink: /addons/itemwatch
+permalink: /addons/itemwatch/
 title: ItemWatch
 ---
 

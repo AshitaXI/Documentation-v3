@@ -1,5 +1,5 @@
 ---
-permalink: /addons/timestamp
+permalink: /addons/timestamp/
 title: Timestamp
 ---
 

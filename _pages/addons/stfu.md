@@ -1,5 +1,5 @@
 ---
-permalink: /addons/stfu
+permalink: /addons/stfu/
 title: Stfu
 ---
 

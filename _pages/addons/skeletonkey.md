@@ -1,5 +1,5 @@
 ---
-permalink: /addons/skeletonkey
+permalink: /addons/skeletonkey/
 title: Skeletonkey
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/ahgo
+permalink: /addons/ahgo/
 title: AHGo
 ---
 

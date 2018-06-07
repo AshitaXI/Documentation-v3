@@ -1,5 +1,5 @@
 ---
-permalink: /addons/petinfo
+permalink: /addons/petinfo/
 title: PetInfo
 ---
 

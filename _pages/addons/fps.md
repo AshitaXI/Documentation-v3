@@ -1,5 +1,5 @@
 ---
-permalink: /addons/fps
+permalink: /addons/fps/
 title: FPS
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/pbar
+permalink: /addons/pbar/
 title: PBar
 ---
 

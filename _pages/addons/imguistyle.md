@@ -1,5 +1,5 @@
 ---
-permalink: /addons/imguistyle
+permalink: /addons/imguistyle/
 title: ImGui Style
 ---
 

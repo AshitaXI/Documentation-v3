@@ -1,5 +1,5 @@
 ---
-permalink: /addons/clock
+permalink: /addons/clock/
 title: Clock
 ---
 

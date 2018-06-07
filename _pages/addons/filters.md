@@ -1,5 +1,5 @@
 ---
-permalink: /addons/filters
+permalink: /addons/filters/
 title: Filters
 ---
 

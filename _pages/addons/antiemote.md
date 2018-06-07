@@ -1,5 +1,5 @@
 ---
-permalink: /addons/antiemote
+permalink: /addons/antiemote/
 title: Anti-Emote
 ---
 

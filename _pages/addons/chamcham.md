@@ -1,5 +1,5 @@
 ---
-permalink: /addons/chamcham
+permalink: /addons/chamcham/
 title: ChamCham
 ---
 

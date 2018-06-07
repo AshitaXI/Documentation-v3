@@ -1,5 +1,5 @@
 ---
-permalink: /addons/find
+permalink: /addons/find/
 title: Find
 ---
 

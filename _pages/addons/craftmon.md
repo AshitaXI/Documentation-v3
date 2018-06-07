@@ -1,5 +1,5 @@
 ---
-permalink: /addons/craftmon
+permalink: /addons/craftmon/
 title: CraftMon
 ---
 

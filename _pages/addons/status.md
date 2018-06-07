@@ -1,5 +1,5 @@
 ---
-permalink: /addons/status
+permalink: /addons/status/
 title: Status
 ---
 

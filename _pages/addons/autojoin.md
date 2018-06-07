@@ -1,5 +1,5 @@
 ---
-permalink: /addons/autojoin
+permalink: /addons/autojoin/
 title: Auto Join
 ---
 

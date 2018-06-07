@@ -1,5 +1,5 @@
 ---
-permalink: /addons/distance
+permalink: /addons/distance/
 title: Distance
 ---
 

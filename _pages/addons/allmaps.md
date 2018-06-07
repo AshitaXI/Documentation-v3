@@ -1,5 +1,5 @@
 ---
-permalink: /addons/allmaps
+permalink: /addons/allmaps/
 title: AllMaps
 ---
 

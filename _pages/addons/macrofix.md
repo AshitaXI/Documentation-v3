@@ -1,5 +1,5 @@
 ---
-permalink: /addons/macrofix
+permalink: /addons/macrofix/
 title: MacroFix
 ---
 

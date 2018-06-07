@@ -1,5 +1,5 @@
 ---
-permalink: /addons/changecall
+permalink: /addons/changecall/
 title: ChangeCall
 ---
 

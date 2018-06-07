@@ -1,5 +1,5 @@
 ---
-permalink: /addons/hideconsole
+permalink: /addons/hideconsole/
 title: HideConsole
 ---
 

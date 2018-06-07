@@ -1,5 +1,5 @@
 ---
-permalink: /addons/paranormal
+permalink: /addons/paranormal/
 title: Paranormal
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/peekaboo
+permalink: /addons/peekaboo/
 title: Peekaboo
 ---
 

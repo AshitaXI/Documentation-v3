@@ -1,5 +1,5 @@
 ---
-permalink: /addons/sexchange
+permalink: /addons/sexchange/
 title: SexChange
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /addons/debuff
+permalink: /addons/debuff/
 title: Debuff
 ---
 

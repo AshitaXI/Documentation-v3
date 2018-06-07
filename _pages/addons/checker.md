@@ -1,5 +1,5 @@
 ---
-permalink: /addons/checker
+permalink: /addons/checker/
 title: Checker
 ---
 

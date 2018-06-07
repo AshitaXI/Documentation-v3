@@ -1,5 +1,5 @@
 ---
-permalink: /addons/logs
+permalink: /addons/logs/
 title: Logs
 ---
 
