@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/guildwork
+permalink: /plugins/guildwork/
 title: Guildwork
 ---
 

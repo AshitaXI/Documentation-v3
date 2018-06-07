@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/hardwaremouse
+permalink: /plugins/hardwaremouse/
 title: HardwareMouse
 ---
 

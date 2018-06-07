@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/statustimers
+permalink: /plugins/statustimers/
 title: StatusTimers
 ---
 

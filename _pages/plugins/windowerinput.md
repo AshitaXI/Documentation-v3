@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/windowerinput
+permalink: /plugins/windowerinput/
 title: WindowerInput
 ---
 

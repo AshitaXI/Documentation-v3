@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/minimap
+permalink: /plugins/minimap/
 title: Minimap
 ---
 

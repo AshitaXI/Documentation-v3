@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/multisend
+permalink: /plugins/multisend/
 title: MultiSend
 ---
 

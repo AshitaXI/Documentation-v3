@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/bellhop
+permalink: /plugins/bellhop/
 title: Bellhop
 ---
 

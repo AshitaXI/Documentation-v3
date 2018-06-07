@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/dashcam
+permalink: /plugins/dashcam/
 title: DashCam
 ---
 

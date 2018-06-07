@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/duration
+permalink: /plugins/duration/
 title: Duration
 ---
 

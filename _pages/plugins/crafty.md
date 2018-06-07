@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/crafty
+permalink: /plugins/crafty/
 title: Crafty
 ---
 

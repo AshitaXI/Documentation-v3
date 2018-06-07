@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/dressme
+permalink: /plugins/dressme/
 title: DressMe
 ---
 

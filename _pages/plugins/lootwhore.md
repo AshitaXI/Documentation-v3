@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/lootWhore
+permalink: /plugins/lootwhore/
 title: LootWhore
 ---
 

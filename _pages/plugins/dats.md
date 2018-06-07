@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/dats
+permalink: /plugins/dats/
 title: Dats
 ---
 

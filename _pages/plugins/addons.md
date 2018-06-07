@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/addons
+permalink: /plugins/addons/
 title: Addons
 ---
 

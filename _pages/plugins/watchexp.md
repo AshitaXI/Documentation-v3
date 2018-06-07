@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/watchexp
+permalink: /plugins/watchexp/
 title: WatchEXP
 ---
 

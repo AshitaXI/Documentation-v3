@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/oseem
+permalink: /plugins/oseem/
 title: Oseem
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/affinity
+permalink: /plugins/affinity/
 title: Affinity
 ---
 

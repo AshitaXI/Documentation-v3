@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/screenshot
+permalink: /plugins/screenshot/
 title: Screenshot
 ---
 

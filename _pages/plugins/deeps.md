@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/deeps
+permalink: /plugins/deeps/
 title: Deeps
 ---
 

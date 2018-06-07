@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/gearlock
+permalink: /plugins/gearlock/
 title: GearLock
 ---
 

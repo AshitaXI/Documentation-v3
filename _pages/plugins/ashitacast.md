@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/ashitacast
+permalink: /plugins/ashitacast/
 title: AshitaCast
 ---
 

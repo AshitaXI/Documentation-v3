@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/watchdog
+permalink: /plugins/watchdog/
 title: WatchDog
 ---
 

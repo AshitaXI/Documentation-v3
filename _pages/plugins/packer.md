@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/packer
+permalink: /plugins/packer/
 title: Packer
 ---
 

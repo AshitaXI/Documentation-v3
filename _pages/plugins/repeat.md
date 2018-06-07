@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/repeat
+permalink: /plugins/repeat/
 title: Repeat
 ---
 

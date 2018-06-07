@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/no-ckback
+permalink: /plugins/no-ckback/
 title: No-ckback
 ---
 

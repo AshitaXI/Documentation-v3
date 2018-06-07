@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/servo
+permalink: /plugins/servo/
 title: Servo
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/greed
+permalink: /plugins/greed/
 title: Greed
 ---
 

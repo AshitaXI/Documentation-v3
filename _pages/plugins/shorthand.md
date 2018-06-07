@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/shorthand
+permalink: /plugins/shorthand/
 title: Shorthand
 ---
 
