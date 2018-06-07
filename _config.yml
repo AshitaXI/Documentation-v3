@@ -28,7 +28,7 @@ title_separator                 : "&bull;"
 name                            : "Ashita Documentation"
 description                     : "Documentation for the Ashita v3 project. Including user help and developer information."
 url                             : "https://docs.ashitaxi.com/"
-baseurl                         : "/"
+baseurl                         : 
 repository                      : "AshitaXI/Documentation"
 teaser:
 breadcrumbs                     : true
