@@ -11,7 +11,7 @@ Ashita v3 requires one of the following operating systems to work properly:
   * Windows 8 / Windows 8.1
   * Windows 10
 
-{% icon fa fa-exclamation-triangle %} **Warning:** Windows XP and Windows Vista are not supported directly. If you manage to install and use Ashita on these operating systems, please understand that we will not assist with anything or give any support while you use these OS's. They are discontinued and no longer viable options
+<i class="fa fa-exclamation-triangle"></i> **Warning:** Windows XP and Windows Vista are not supported directly. If you manage to install and use Ashita on these operating systems, please understand that we will not assist with anything or give any support while you use these OS's. They are discontinued and no longer viable options
 {: .notice--warning}
 
 Ashita v3 requires the following packages to be installed on your system. In most cases, you will have most, if not all, of these already.

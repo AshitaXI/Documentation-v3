@@ -4,14 +4,14 @@ title: Installing Ashita v3
 toc: true
 ---
 
-{% icon fa fa-exclamation-triangle %} **Please Note!:** Before you try to install Ashita, be sure to check and make sure that you have the system requirements listed [here](/requirements/).
+<i class="fa fa-exclamation-triangle"></i> **Please Note!:** Before you try to install Ashita, be sure to check and make sure that you have the system requirements listed [here](/requirements/).
 {: .notice--warning}
 
 ## 1. Download Ashita
 
 To start, you need to download the latest version of the Ashita v3 launcher.
 
-{% icon fa fa-download %} **Download:** [Click Here To Download](http://git.ashita.atom0s.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
+<i class="fa fa-download"></i> **Download:** [Click Here To Download](http://git.ashita.atom0s.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
 
 Upon running the Ashita launcher, it will download and install any missing package files that are needed for it to work. _(This does not include the system requirement files, you must manually install those yourself!)_ 
 
