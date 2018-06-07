@@ -2,6 +2,8 @@
 
 Source code and information to the Ashita v3 documentation website. [https://docs.ashitaxi.com](https://docs.ashitaxi.com/)
 
+Support and discussions regarding this repository and Ashita should be handled on our Discord here: [Click Here](https://discordapp.com/invite/CfZu6Ya)
+
 ## GitHub Pages
 
 This site is hosted by [GitHub Pages](https://pages.github.com/) which renders the content of this source via [Jekyll](https://jekyllrb.com/).  
