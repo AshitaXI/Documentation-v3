@@ -4,7 +4,7 @@ title: Synplicity
 ---
 
 **Author:** bluekirby0<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/synplicity](http://git.ashita.atom0s.com/Addons/synplicity)
+**Link:** [http://git.ashitaxi.com/Addons/synplicity](http://git.ashitaxi.com/Addons/synplicity)
 
 Learns crafts as you perform them and repeats them with ease.
 

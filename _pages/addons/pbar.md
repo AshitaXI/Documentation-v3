@@ -4,7 +4,7 @@ title: PBar
 ---
 
 **Author:** Vicrelant<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/pbar](http://git.ashita.atom0s.com/Addons/pbar)
+**Link:** [http://git.ashitaxi.com/Addons/pbar](http://git.ashitaxi.com/Addons/pbar)
 
 Displays various information about the players current pet.
 

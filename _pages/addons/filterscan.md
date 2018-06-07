@@ -4,7 +4,7 @@ title: FilterScan
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/filterscan](http://git.ashita.atom0s.com/Addons/filterscan)
+**Link:** [http://git.ashitaxi.com/Addons/filterscan](http://git.ashitaxi.com/Addons/filterscan)
 
 Allows players to filter their widescan results, by name, to quickly and easily find their desired target.
 

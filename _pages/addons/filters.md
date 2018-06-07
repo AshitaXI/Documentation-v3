@@ -4,7 +4,7 @@ title: Filters
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/filters](http://git.ashita.atom0s.com/Addons/filters)
+**Link:** [http://git.ashitaxi.com/Addons/filters](http://git.ashitaxi.com/Addons/filters)
 
 Allows the player to save and load chat filter settings with ease.
 

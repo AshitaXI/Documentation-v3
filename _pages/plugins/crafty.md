@@ -4,7 +4,7 @@ title: Crafty
 ---
 
 **Author:** atom0s & RZN<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Crafty](http://git.ashita.atom0s.com/Plugins/Crafty)
+**Link:** [http://git.ashitaxi.com/Plugins/Crafty](http://git.ashitaxi.com/Plugins/Crafty)
 
 In-game crafting tool to help automate crafting bulk amounts of things. Full in-game UI to make things even easier.
 

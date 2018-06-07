@@ -4,7 +4,7 @@ title: FPS
 ---
 
 **Author:** atom0s & RZN<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/fps](http://git.ashita.atom0s.com/Addons/fps)
+**Link:** [http://git.ashitaxi.com/Addons/fps](http://git.ashitaxi.com/Addons/fps)
 
 Displays the current game FPS on screen. Also allows for unlocking the games FPS.
 

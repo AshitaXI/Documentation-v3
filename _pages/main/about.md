@@ -93,7 +93,7 @@ During the rewrite, atom0s took the time to further improve the core code of the
   * And much more!
 
 A full list of changes during this time were kept over on the forums here:<br/>
-[http://ashita.atom0s.com/forums/viewtopic.php?f=15&t=66](http://ashita.atom0s.com/forums/viewtopic.php?f=15&t=66)
+[https://forums.ashitaxi.com/viewtopic.php?f=15&t=66](https://forums.ashitaxi.com/viewtopic.php?f=15&t=66)
 
 ----
 

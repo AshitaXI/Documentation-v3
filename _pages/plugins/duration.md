@@ -4,7 +4,7 @@ title: Duration
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Duration](http://git.ashita.atom0s.com/Plugins/Duration)
+**Link:** [http://git.ashitaxi.com/Plugins/Duration](http://git.ashitaxi.com/Plugins/Duration)
 
 A plugin to track buffs you've cast and when they will wear off.
 

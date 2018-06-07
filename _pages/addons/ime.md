@@ -4,7 +4,7 @@ title: IME
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/ime](http://git.ashita.atom0s.com/Addons/ime)
+**Link:** [http://git.ashitaxi.com/Addons/ime](http://git.ashitaxi.com/Addons/ime)
 
 Enables the Japanese IME toolbar for any language client. This allows you to type in Japanese regardless of what language your client is.
 

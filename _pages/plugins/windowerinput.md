@@ -4,7 +4,7 @@ title: WindowerInput
 ---
 
 **Author:** RZN & atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Ashita/Ashitav3-Release](http://git.ashita.atom0s.com/Ashita/Ashitav3-Release)
+**Link:** [http://git.ashitaxi.com/Ashita/Ashitav3-Release](http://git.ashitaxi.com/Ashita/Ashitav3-Release)
 
 Emulates the WindowerHelper input system for third party applications that was made for Windower. Allows third party applications that were designed for use with Windower to also work with Ashita without any extra configurations or changes to the program. Simply load the plugin and it works!
 

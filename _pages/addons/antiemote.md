@@ -4,7 +4,7 @@ title: Anti-Emote
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/antiemote](http://git.ashita.atom0s.com/Addons/antiemote)
+**Link:** [http://git.ashitaxi.com/Addons/antiemote](http://git.ashitaxi.com/Addons/antiemote)
 
 Removes all emotes by dropping any emote packet incoming to the client. (Used mostly for private servers where emotes can crash the client.)
 

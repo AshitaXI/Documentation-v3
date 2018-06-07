@@ -4,7 +4,7 @@ title: mapdot
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/mapdot](http://git.ashita.atom0s.com/Addons/mapdot)
+**Link:** [http://git.ashitaxi.com/Addons/mapdot](http://git.ashitaxi.com/Addons/mapdot)
 
 Enables players to see all targets on the compass minimap regardless of what job they are on.
 

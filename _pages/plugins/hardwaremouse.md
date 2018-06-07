@@ -4,7 +4,7 @@ title: HardwareMouse
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/HardwareMouse](http://git.ashita.atom0s.com/Plugins/HardwareMouse)
+**Link:** [http://git.ashitaxi.com/Plugins/HardwareMouse](http://git.ashitaxi.com/Plugins/HardwareMouse)
 
 Shows the hardware mouse by force.
 

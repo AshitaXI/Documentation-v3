@@ -4,7 +4,7 @@ title: WatchDog
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/WatchDog](http://git.ashita.atom0s.com/Plugins/WatchDog)
+**Link:** [http://git.ashitaxi.com/Plugins/WatchDog](http://git.ashitaxi.com/Plugins/WatchDog)
 
 WatchDog allows users to wide-scan track anything in a zone easily via slash commands.
 

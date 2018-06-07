@@ -4,7 +4,7 @@ title: Links
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/links](http://git.ashita.atom0s.com/Addons/links)
+**Link:** [http://git.ashitaxi.com/Addons/links](http://git.ashitaxi.com/Addons/links)
 
 A small addon to capture and display links in a UI window. Links are able to be opened via a simple click of a button.
 

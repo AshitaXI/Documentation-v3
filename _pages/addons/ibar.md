@@ -4,7 +4,7 @@ title: iBar
 ---
 
 **Author:** Vicrelant<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/ibar](http://git.ashita.atom0s.com/Addons/ibar)
+**Link:** [http://git.ashitaxi.com/Addons/ibar](http://git.ashitaxi.com/Addons/ibar)
 
 Displays information about yourself and your targets.
 

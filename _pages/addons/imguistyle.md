@@ -4,7 +4,7 @@ title: ImGui Style
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/imguistyle](http://git.ashita.atom0s.com/Addons/imguistyle)
+**Link:** [http://git.ashitaxi.com/Addons/imguistyle](http://git.ashitaxi.com/Addons/imguistyle)
 
 Allows players to customize the new Ashita in-game UI system theme.
 

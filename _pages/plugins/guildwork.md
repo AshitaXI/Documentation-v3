@@ -4,7 +4,7 @@ title: Guildwork
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Guildwork](http://git.ashita.atom0s.com/Plugins/Guildwork)
+**Link:** [http://git.ashitaxi.com/Plugins/Guildwork](http://git.ashitaxi.com/Plugins/Guildwork)
 
 Guildwork.com website interaction built into a plugin! Manage your characters and other information directly within Ashita.
 

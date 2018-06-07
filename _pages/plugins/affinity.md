@@ -4,7 +4,7 @@ title: Affinity
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Affinity](http://git.ashita.atom0s.com/Plugins/Affinity)
+**Link:** [http://git.ashitaxi.com/Plugins/Affinity](http://git.ashitaxi.com/Plugins/Affinity)
 
 Allows players to set the process affinity mask via a simple in-game command.
 

@@ -4,7 +4,7 @@ title: Enternity
 ---
 
 **Author:** Hypnotoad<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/enternity](http://git.ashita.atom0s.com/Addons/enternity)
+**Link:** [http://git.ashitaxi.com/Addons/enternity](http://git.ashitaxi.com/Addons/enternity)
 
 Removes the need to press enter during cutscenes and other dialog.
 

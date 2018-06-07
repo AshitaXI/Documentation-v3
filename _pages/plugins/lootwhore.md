@@ -4,7 +4,7 @@ title: LootWhore
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/LootWhore](http://git.ashita.atom0s.com/Plugins/LootWhore)
+**Link:** [http://git.ashitaxi.com/Plugins/LootWhore](http://git.ashitaxi.com/Plugins/LootWhore)
 
 A plugin to automatically lot/pass/drop/store items that enter the treasure pool.
 
@@ -18,4 +18,4 @@ A plugin to automatically lot/pass/drop/store items that enter the treasure pool
 
 LootWhore offers a lot of custom commands to manage the treasure pool. You can find the readme here:
 
-[http://git.ashita.atom0s.com/Plugins/LootWhore/src/master/release/docs/Lootwhore.txt](http://git.ashita.atom0s.com/Plugins/LootWhore/src/master/release/docs/Lootwhore.txt)
+[http://git.ashitaxi.com/Plugins/LootWhore/src/master/release/docs/Lootwhore.txt](http://git.ashitaxi.com/Plugins/LootWhore/src/master/release/docs/Lootwhore.txt)

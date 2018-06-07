@@ -4,7 +4,7 @@ title: Find
 ---
 
 **Author:** MalRD<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/find](http://git.ashita.atom0s.com/Addons/find)
+**Link:** [http://git.ashitaxi.com/Addons/find](http://git.ashitaxi.com/Addons/find)
 
 Allows searching for items within a players various storage containers/slips via a command.
 

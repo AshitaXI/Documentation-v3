@@ -4,7 +4,7 @@ title: Stfu
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/stfu](http://git.ashita.atom0s.com/Addons/stfu)
+**Link:** [http://git.ashitaxi.com/Addons/stfu](http://git.ashitaxi.com/Addons/stfu)
 
 Stfu is an addon the blocks annoying system messages that can often times spam the chat log. It also converts `<call>`'s to `(call)` instead to remove annoying macro sounds.
 

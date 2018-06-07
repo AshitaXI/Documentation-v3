@@ -4,7 +4,7 @@ title: MultiSend
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/MultiSend](http://git.ashita.atom0s.com/Plugins/MultiSend)
+**Link:** [http://git.ashitaxi.com/Plugins/MultiSend](http://git.ashitaxi.com/Plugins/MultiSend)
 
 Multisend is a replacement for servo. No synchronization is needed, just load and go.
 
@@ -18,4 +18,4 @@ Multisend is a replacement for servo. No synchronization is needed, just load an
 
 MultiSend uses a handful of different commands, you can find full inforamtion here:
 
-[http://git.ashita.atom0s.com/Plugins/MultiSend](http://git.ashita.atom0s.com/Plugins/MultiSend)
+[http://git.ashitaxi.com/Plugins/MultiSend](http://git.ashitaxi.com/Plugins/MultiSend)

@@ -4,7 +4,7 @@ title: StatusTimers
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/StatusTimers](http://git.ashita.atom0s.com/Plugins/StatusTimers)
+**Link:** [http://git.ashitaxi.com/Plugins/StatusTimers](http://git.ashitaxi.com/Plugins/StatusTimers)
 
 A plugin that shows how long your status effects have been active.
 

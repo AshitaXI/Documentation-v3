@@ -4,7 +4,7 @@ title: Addons
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Ashita/Ashitav3-Release](http://git.ashita.atom0s.com/Ashita/Ashitav3-Release)
+**Link:** [http://git.ashitaxi.com/Ashita/Ashitav3-Release](http://git.ashitaxi.com/Ashita/Ashitav3-Release)
 
 Adds Lua scripting support to Ashita in the form of state-separated environments per script known as `addons`. Addons have [nearly] full access to the Ashita Development Kit (ADK) interfaces as well as other custom exposed tables implementing other helpful functionalities.
 

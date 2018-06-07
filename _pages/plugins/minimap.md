@@ -4,7 +4,7 @@ title: Minimap
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Minimap](http://git.ashita.atom0s.com/Plugins/Minimap)
+**Link:** [http://git.ashitaxi.com/Plugins/Minimap](http://git.ashitaxi.com/Plugins/Minimap)
 
 Displays a minimap of the current area on-screen. Includes various configurations to customize the minimap and its features.
 

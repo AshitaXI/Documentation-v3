@@ -4,7 +4,7 @@ title: SexChange
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/sexchange](http://git.ashita.atom0s.com/Addons/sexchange)
+**Link:** [http://git.ashitaxi.com/Addons/sexchange](http://git.ashitaxi.com/Addons/sexchange)
 
 Allows players to change their race and hair style easily via packets.
 

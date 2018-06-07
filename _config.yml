@@ -27,7 +27,7 @@ title                           : "Ashita Documentation"
 title_separator                 : "&bull;"
 name                            : "Ashita Documentation"
 description                     : "Documentation for the Ashita v3 project. Including user help and developer information."
-url                             : "http://docs.ashita.atom0s.com/"
+url                             : "https://docs.ashitaxi.com/"
 baseurl                         : "/"
 repository                      : "AshitaXI/Documentation"
 teaser:
@@ -49,7 +49,7 @@ author:
   location                      : "Vana'diel"
   email                         :
   uri                           :
-  home                          : "http://ashita.atom0s.com"
+  home                          : "https://www.ashitaxi.com"
   bitbucket                     :
   codepen                       :
   dribbble                      :

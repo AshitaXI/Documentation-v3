@@ -4,7 +4,7 @@ title: Deeps
 ---
 
 **Author:** Ashita Community<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/Deeps](http://git.ashita.atom0s.com/Plugins/Deeps)
+**Link:** [http://git.ashitaxi.com/Plugins/Deeps](http://git.ashitaxi.com/Plugins/Deeps)
 
 Miniature damage logging in FFXI for Ashita. Usage: /load deeps Monitor can be moved with shift+drag. Click bars to zoom in, right click to zoom out. Reset the meters with /dps reset.
 

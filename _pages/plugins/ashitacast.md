@@ -4,13 +4,13 @@ title: AshitaCast
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/AshitaCast](http://git.ashita.atom0s.com/Plugins/AshitaCast)
+**Link:** [http://git.ashitaxi.com/Plugins/AshitaCast](http://git.ashitaxi.com/Plugins/AshitaCast)
 
 A plugin that manages gear swaps.
 
 For more detailed info on how to use AshitaCast, please check the docs for it here:
 
-[http://git.ashita.atom0s.com/Plugins/AshitaCast/src/master/release/docs/Ashitacast](http://git.ashita.atom0s.com/Plugins/AshitaCast/src/master/release/docs/Ashitacast)
+[http://git.ashitaxi.com/Plugins/AshitaCast/src/master/release/docs/Ashitacast](http://git.ashitaxi.com/Plugins/AshitaCast/src/master/release/docs/Ashitacast)
 
 ## Features
 

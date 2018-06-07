@@ -11,7 +11,7 @@ toc: true
 
 To start, you need to download the latest version of the Ashita v3 launcher.
 
-<i class="fa fa-download"></i> **Download:** [Click Here To Download](http://git.ashita.atom0s.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
+<i class="fa fa-download"></i> **Download:** [Click Here To Download](http://git.ashitaxi.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
 
 Upon running the Ashita launcher, it will download and install any missing package files that are needed for it to work. _(This does not include the system requirement files, you must manually install those yourself!)_ 
 

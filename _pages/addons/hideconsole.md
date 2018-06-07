@@ -4,7 +4,7 @@ title: HideConsole
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/hideconsole](http://git.ashita.atom0s.com/Addons/hideconsole)
+**Link:** [http://git.ashitaxi.com/Addons/hideconsole](http://git.ashitaxi.com/Addons/hideconsole)
 
 Hides the boot loader window used for private servers.
 

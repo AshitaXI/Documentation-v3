@@ -4,7 +4,7 @@ title: Auto Join
 ---
 
 **Author:** atom0s (Based on Lolwutt's original autojoin plugin.)<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/autojoin](http://git.ashita.atom0s.com/Addons/autojoin)
+**Link:** [http://git.ashitaxi.com/Addons/autojoin](http://git.ashitaxi.com/Addons/autojoin)
 
 Automatically responds to party invites based on configuration settings. Can automatically join/decline invites or specifically handle them based on the senders name.
 

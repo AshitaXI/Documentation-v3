@@ -4,7 +4,7 @@ title: GearLock
 ---
 
 **Author:** Lolwutt<br/>
-**Link:** [http://git.ashita.atom0s.com/Plugins/GearLock](http://git.ashita.atom0s.com/Plugins/GearLock)
+**Link:** [http://git.ashitaxi.com/Plugins/GearLock](http://git.ashitaxi.com/Plugins/GearLock)
 
 A plugin to prevent character blinking during equipment swaps.
 

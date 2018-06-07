@@ -17,8 +17,8 @@ Not finding what you are looking for or need support/help? Feel free to join us 
 
 Or check out our website/forums here:
 
-  * <i class="fa fa-home"></i> [Ashita Website](http://ashita.atom0s.com/) <br/>
-  * <i class="fa fa-list"></i> [Ashita Forums](http://ashita.atom0s.com/forums/)
+  * <i class="fa fa-home"></i> [Ashita Website](https://www.ashitaxi.com/) <br/>
+  * <i class="fa fa-list"></i> [Ashita Forums](https://forums.ashitaxi.com/)
 
 Need to report a bug? You can find our issue tracker here: <i class="fa fa-bug"></i> [Issue Tracker](https://github.com/AshitaXI/Ashita)
 

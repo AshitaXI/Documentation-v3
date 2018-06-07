@@ -4,7 +4,7 @@ title: Timestamp
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/timestamp](http://git.ashita.atom0s.com/Addons/timestamp)
+**Link:** [http://git.ashitaxi.com/Addons/timestamp](http://git.ashitaxi.com/Addons/timestamp)
 
 Adds a timestamp to the front of chat messages in the chat log.
 

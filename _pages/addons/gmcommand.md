@@ -4,7 +4,7 @@ title: GMCommand
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashita.atom0s.com/Addons/gmcommand](http://git.ashita.atom0s.com/Addons/gmcommand)
+**Link:** [http://git.ashitaxi.com/Addons/gmcommand](http://git.ashitaxi.com/Addons/gmcommand)
 
 Allows GMs on private servers to still use previous command prefixes they are used to typing instead of the current DSP default that has changed multiple times. (Accepts `@` and `$` for prefixes and will replace with `!` as in current DSP.)
 
