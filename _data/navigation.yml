@@ -28,6 +28,8 @@ sidenav:
     url: /addons/
   - title: "Plugins"
     url: /plugins/
+  - title: "Developers"
+    url: /dev/
 
 # Addons View Navigation
 addonsnav:
@@ -144,6 +146,8 @@ addonsnav:
         url: /addons/zoom/
   - title: "Plugins"
     url: /plugins/
+  - title: "Developers"
+    url: /dev/
 
 # Plugins View Navigation
 pluginsnav:
@@ -210,3 +214,45 @@ pluginsnav:
         url: /plugins/watchexp/
       - title: "windowerinput"
         url: /plugins/windowerinput/
+  - title: "Developers"
+    url: /dev/
+
+# Developers View Navigation
+devnav:
+  - title: "Getting Started"
+    url: /
+  - title: "Addons"
+    url: /addons/
+  - title: "Plugins"
+    url: /plugins/
+  - title: "Developers"
+    url: /dev/
+    children:
+      - title: "Creating Addons"
+        url: /dev/addons/
+      - title: "Creating Plugins"
+        url: /dev/plugins/
+
+# Developers View Navigation (Addons)
+devnav_addons:
+  - title: "Creating Addons"
+    url: /dev/addons/
+    children:
+      - title: "Initial Addon Setup"
+        url: "/dev/addons/initialsetup/"
+      - title: "Events"
+        url: /dev/addons/events/
+      - title: "Functions"
+        url: /dev/addons/functions/
+      - title: "Namespaces"
+        url: /dev/addons/namespaces/
+      - title: Custom Types
+        url: /dev/addons/customtypes/
+      - title: "Using Libs"
+        url: /dev/addons/usinglibs/
+      - title: "Using AshitaCore & ADK"
+        url: /dev/addons/usingashitacoreadk/
+      - title: "Using LogManager"
+        url: /dev/addons/usinglogmanager/
+
+# Developers View Navigation (Plugins)

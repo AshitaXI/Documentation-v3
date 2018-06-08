@@ -2,7 +2,7 @@
 permalink: /dev/
 title: Developers
 sidebar:
-  nav: sidenav
+  nav: devnav
 toc: true
 ---
 

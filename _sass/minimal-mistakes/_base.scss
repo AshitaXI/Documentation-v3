@@ -325,6 +325,13 @@ nav {
   li ol {
     margin-top: 0;
   }
+
+  .nav__childitem {
+    font-size: 1em !important;
+    line-height: 1.75 !important;
+    list-style: square !important;
+    margin-left: 25px !important;
+  }
 }
 
 /*

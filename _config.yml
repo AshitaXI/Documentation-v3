@@ -272,3 +272,25 @@ defaults:
         nav: pluginsnav
       toc_label: On This Page
       toc_icon: "align-justify"
+  # _pages/dev
+  - scope:
+      path: "_pages/dev"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      sidebar:
+          nav: devnav
+      toc_label: On This Page
+      toc_icon: "align-justify"
+  # _pages/dev/addons
+  - scope:
+      path: "_pages/dev/addons"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      sidebar:
+          nav: devnav_addons
+      toc_label: On This Page
+      toc_icon: "align-justify"
