@@ -4,7 +4,7 @@ title: Distance
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/distance](http://git.ashitaxi.com/Addons/distance)
+**Link:** [https://git.ashitaxi.com/Addons/distance](https://git.ashitaxi.com/Addons/distance)
 
 Displays the distance between the player and their target on screen.
 

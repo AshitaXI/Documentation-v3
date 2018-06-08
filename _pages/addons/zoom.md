@@ -4,7 +4,7 @@ title: Zoom
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/zoom](http://git.ashitaxi.com/Addons/zoom)
+**Link:** [https://git.ashitaxi.com/Addons/zoom](https://git.ashitaxi.com/Addons/zoom)
 
 Allows users to override the min/max zoom distances (of the mouse wheel) to see closer or further away from their character.
 

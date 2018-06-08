@@ -4,7 +4,7 @@ title: CraftMon
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/craftmon](http://git.ashitaxi.com/Addons/craftmon)
+**Link:** [https://git.ashitaxi.com/Addons/craftmon](https://git.ashitaxi.com/Addons/craftmon)
 
 Add that is able to display the players craft results immediately after starting the synth. Prints a colored message based on the result. (Normal Quality, High-Quality, or Break)
 

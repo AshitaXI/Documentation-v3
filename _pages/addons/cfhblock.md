@@ -4,7 +4,7 @@ title: CFHBlock
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/cfhblock](http://git.ashitaxi.com/Addons/cfhblock)
+**Link:** [https://git.ashitaxi.com/Addons/cfhblock](https://git.ashitaxi.com/Addons/cfhblock)
 
 Blocks any and all forms of calling for help to prevent accidents. This addon blocks the call for help packet entirely from ever being sent.
 

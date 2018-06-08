@@ -4,7 +4,7 @@ title: Clock
 ---
 
 **Author:** atom0s & bluekirby0<br/>
-**Link:** [http://git.ashitaxi.com/Addons/clock](http://git.ashitaxi.com/Addons/clock)
+**Link:** [https://git.ashitaxi.com/Addons/clock](https://git.ashitaxi.com/Addons/clock)
 
 An addon that allows you to display times  for various timezones, on-screen.
 

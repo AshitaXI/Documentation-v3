@@ -4,7 +4,7 @@ title: Lotomatic
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/lotomatic](http://git.ashitaxi.com/Addons/lotomatic)
+**Link:** [https://git.ashitaxi.com/Addons/lotomatic](https://git.ashitaxi.com/Addons/lotomatic)
 
 Treasure pool manager that can automatically lot/pass items for you.
 

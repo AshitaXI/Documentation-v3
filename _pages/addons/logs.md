@@ -4,7 +4,7 @@ title: Logs
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/logs](http://git.ashitaxi.com/Addons/logs)
+**Link:** [https://git.ashitaxi.com/Addons/logs](https://git.ashitaxi.com/Addons/logs)
 
 Creates log files of all incoming text to the players game client. Log files are named per-character and date they are written to for ease of management.
 

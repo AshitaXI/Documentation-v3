@@ -4,7 +4,7 @@ title: TParty
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/tparty](http://git.ashitaxi.com/Addons/tparty)
+**Link:** [https://git.ashitaxi.com/Addons/tparty](https://git.ashitaxi.com/Addons/tparty)
 
 Displays the full party/alliances information for TP and MP. Also displays the current targets HP percent.
 

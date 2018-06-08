@@ -4,7 +4,7 @@ title: Nomad
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/nomad](http://git.ashitaxi.com/Addons/nomad)
+**Link:** [https://git.ashitaxi.com/Addons/nomad](https://git.ashitaxi.com/Addons/nomad)
 
 Enables mog house functionality in any zone. (Works on private servers, partially works on retail.)
 

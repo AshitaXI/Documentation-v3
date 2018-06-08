@@ -4,7 +4,7 @@ title: ChangeCall
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/changecall](http://git.ashitaxi.com/Addons/changecall)
+**Link:** [https://git.ashitaxi.com/Addons/changecall](https://git.ashitaxi.com/Addons/changecall)
 
 Allows players to override all incoming calls with a new one instead.
 

@@ -4,7 +4,7 @@ title: AHGo
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/ahgo](http://git.ashitaxi.com/Addons/ahgo)
+**Link:** [https://git.ashitaxi.com/Addons/ahgo](https://git.ashitaxi.com/Addons/ahgo)
 
 A simple addon that allows you to browse the AH while moving/running. (Useful for private servers.)
 

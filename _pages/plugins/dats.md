@@ -4,7 +4,7 @@ title: Dats
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Plugins/Dats](http://git.ashitaxi.com/Plugins/Dats)
+**Link:** [https://git.ashitaxi.com/Plugins/Dats](https://git.ashitaxi.com/Plugins/Dats)
 
 Enables users to easily override DAT files without actually replacing them. Loads overrides from a set directory so you do not have to overwrite the original game files.
 

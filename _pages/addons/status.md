@@ -4,7 +4,7 @@ title: Status
 ---
 
 **Author:** Hypnotoad<br/>
-**Link:** [http://git.ashitaxi.com/Addons/status](http://git.ashitaxi.com/Addons/status)
+**Link:** [https://git.ashitaxi.com/Addons/status](https://git.ashitaxi.com/Addons/status)
 
 Tracks party members debuffs on screen without needing to target them.
 

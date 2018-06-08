@@ -4,7 +4,7 @@ title: DrawDistance
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/drawdistance](http://git.ashitaxi.com/Addons/drawdistance)
+**Link:** [https://git.ashitaxi.com/Addons/drawdistance](https://git.ashitaxi.com/Addons/drawdistance)
 
 Allows the player to alter the rendering distances of the game via slash commands.
 

@@ -4,7 +4,7 @@ title: Recast
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/recast](http://git.ashitaxi.com/Addons/recast)
+**Link:** [https://git.ashitaxi.com/Addons/recast](https://git.ashitaxi.com/Addons/recast)
 
 Displays the players ability and spell recast information.
 

@@ -4,7 +4,7 @@ title: Repeat
 ---
 
 **Author:** zombie343<br/>
-**Link:** [http://git.ashitaxi.com/Plugins/Repeat](http://git.ashitaxi.com/Plugins/Repeat)
+**Link:** [https://git.ashitaxi.com/Plugins/Repeat](https://git.ashitaxi.com/Plugins/Repeat)
 
 New and improved version of the repeater addon.
 

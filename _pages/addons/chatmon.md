@@ -4,7 +4,7 @@ title: ChatMon
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/chatmon](http://git.ashitaxi.com/Addons/chatmon)
+**Link:** [https://git.ashitaxi.com/Addons/chatmon](https://git.ashitaxi.com/Addons/chatmon)
 
 Monitors chat and plays sounds when certain events and conditions are met.
 

@@ -4,7 +4,7 @@ title: Filterless
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/filterless](http://git.ashitaxi.com/Addons/filterless)
+**Link:** [https://git.ashitaxi.com/Addons/filterless](https://git.ashitaxi.com/Addons/filterless)
 
 Removes the bad language chat filter by force. (Useful for private servers.)
 

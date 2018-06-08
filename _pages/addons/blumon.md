@@ -4,7 +4,7 @@ title: Blumon
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/blumon](http://git.ashitaxi.com/Addons/blumon)
+**Link:** [https://git.ashitaxi.com/Addons/blumon](https://git.ashitaxi.com/Addons/blumon)
 
 Displays a colored message when you learn a Blue Magic spell. Making it easier to see when one is learned.
 

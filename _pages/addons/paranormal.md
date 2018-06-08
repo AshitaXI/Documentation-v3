@@ -4,7 +4,7 @@ title: Paranormal
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/paranormal](http://git.ashitaxi.com/Addons/paranormal)
+**Link:** [https://git.ashitaxi.com/Addons/paranormal](https://git.ashitaxi.com/Addons/paranormal)
 
 Enables players to use any slash command built into the game client while dead. (Removes the `Unable to use that command while unconsious.` flag from all commands.)
 

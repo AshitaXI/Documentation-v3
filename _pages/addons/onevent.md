@@ -4,7 +4,7 @@ title: OnEvent
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/onevent](http://git.ashitaxi.com/Addons/onevent)
+**Link:** [https://git.ashitaxi.com/Addons/onevent](https://git.ashitaxi.com/Addons/onevent)
 
 An alias based chat monitor to automatically execute commands based on chat events.
 

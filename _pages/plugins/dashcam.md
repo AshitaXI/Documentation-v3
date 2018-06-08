@@ -4,7 +4,7 @@ title: DashCam
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Plugins/DashCam](http://git.ashitaxi.com/Plugins/DashCam)
+**Link:** [https://git.ashitaxi.com/Plugins/DashCam](https://git.ashitaxi.com/Plugins/DashCam)
 
 DashCam allows players to record in-game video with ease.
 

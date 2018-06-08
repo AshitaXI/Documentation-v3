@@ -4,7 +4,7 @@ title: SingleRace
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/singlerace](http://git.ashitaxi.com/Addons/singlerace)
+**Link:** [https://git.ashitaxi.com/Addons/singlerace](https://git.ashitaxi.com/Addons/singlerace)
 
 A simple addon to force all other players and npcs to a specific race and hair style.
 

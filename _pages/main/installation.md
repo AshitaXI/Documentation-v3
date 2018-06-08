@@ -11,7 +11,7 @@ toc: true
 
 To start, you need to download the latest version of the Ashita v3 launcher.
 
-<i class="fa fa-download"></i> **Download:** [Click Here To Download](http://git.ashitaxi.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
+<i class="fa fa-download"></i> **Download:** [Click Here To Download](https://git.ashitaxi.com/Ashita/Ashitav3-Launcher/raw/master/Ashita.exe)
 
 Upon running the Ashita launcher, it will download and install any missing package files that are needed for it to work. _(This does not include the system requirement files, you must manually install those yourself!)_ 
 
@@ -48,7 +48,7 @@ Here are some screenshots and details of each part of the Ashita launcher. _Thes
 
 ### **Main Screen**
 
-![main](http://i.imgur.com/BfnwLmP.png)
+![main](https://i.imgur.com/BfnwLmP.png)
 
   - Top-bar navigation shortcuts. Clicking these will open up various helpful websites regarding the Ashita project.
       - Global: Opens the main Ashita homepage.
@@ -69,7 +69,7 @@ Here are some screenshots and details of each part of the Ashita launcher. _Thes
 
 ### **Configuration Editor**
 
-![config editor](http://i.imgur.com/xRmI61i.png)
+![config editor](https://i.imgur.com/xRmI61i.png)
 
   - The (optional) configuration name. Using this will override what shows in the main configuration list of Ashita.
   - The boot configurations. This is how Ashita launches the game.
@@ -85,7 +85,7 @@ Here are some screenshots and details of each part of the Ashita launcher. _Thes
   - The configuration navigation for the various options that can be altered within Ashita.
   - The 'Save' icon to save the edits to the configuration file and return to the previous screen.
 
-![config editor](http://i.imgur.com/YhhV0Sf.png)
+![config editor](https://i.imgur.com/YhhV0Sf.png)
 
   - General Window configurations that can be turned on and off.
       - Windowed Mode: Toggles if the game should be ran in windowed mode or fullscreen mode.
@@ -97,7 +97,7 @@ Here are some screenshots and details of each part of the Ashita launcher. _Thes
       - Background Size: The X and Y background resolution size of FFXI. (Using -1 here will use the value currently in the system registry.)
       - Menu Size: The X and Y menu resolution size of FFXI. (Using -1 here will use the value currently in the system registry.)
 
-![config editor](http://i.imgur.com/G6GuVmX.png)
+![config editor](https://i.imgur.com/G6GuVmX.png)
 
   - Language configurations to adjust how Ashita handles the games language.
       - PlayOnline: The PlayOnline language that you have installed. (This does not alter how languages appear in-game. This is just used to locate the proper install path from the registry for the game.)
@@ -107,7 +107,7 @@ Here are some screenshots and details of each part of the Ashita launcher. _Thes
       - Direct3D Buffer Count: The amount of buffers the game should make use of. 
       - Direct3D Swap Effect: The swap effect that the game should make use of. (Useful for enforcing vsync if needed.)
 
-![config editor](http://i.imgur.com/u2jjxho.png)
+![config editor](https://i.imgur.com/u2jjxho.png)
 
   - Registry game settings that FFXI makes use of. Ashita can alter these settings directly within the launcher per-configuration.
 
@@ -115,7 +115,7 @@ _The tooltips of these settings can help determine the best settings to use for 
 
 ### **Addons and Plugins**
 
-![addons](http://i.imgur.com/Eza0HjE.png)
+![addons](https://i.imgur.com/Eza0HjE.png)
 
   - The addon or plugin name and description explaining what the addon/plugin does.
   - The installed flag if the addon/plugin has been installed.

@@ -4,7 +4,7 @@ title: Servo
 ---
 
 **Author:** bluekirby0 & atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Plugins/Servo](http://git.ashitaxi.com/Plugins/Servo)
+**Link:** [https://git.ashitaxi.com/Plugins/Servo](https://git.ashitaxi.com/Plugins/Servo)
 
 Allows you to send commands to multiple other characters on the local computer from a single character.
 

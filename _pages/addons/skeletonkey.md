@@ -4,7 +4,7 @@ title: Skeletonkey
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/skeletonkey](http://git.ashitaxi.com/Addons/skeletonkey)
+**Link:** [https://git.ashitaxi.com/Addons/skeletonkey](https://git.ashitaxi.com/Addons/skeletonkey)
 
 Addon that allows players to open any targeted door.
 

@@ -4,7 +4,7 @@ title: BluSets
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/blusets](http://git.ashitaxi.com/Addons/blusets)
+**Link:** [https://git.ashitaxi.com/Addons/blusets](https://git.ashitaxi.com/Addons/blusets)
 
 Manage blue magic spells simple and easy with some slash commands.
 

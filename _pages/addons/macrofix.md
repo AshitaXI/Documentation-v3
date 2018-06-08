@@ -4,7 +4,7 @@ title: MacroFix
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/macrofix](http://git.ashitaxi.com/Addons/macrofix)
+**Link:** [https://git.ashitaxi.com/Addons/macrofix](https://git.ashitaxi.com/Addons/macrofix)
 
 An addon that alters how the macro bars show in game. Removes the delay and instead shows the bars immediately. 
 

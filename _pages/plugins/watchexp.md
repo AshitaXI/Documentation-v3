@@ -4,7 +4,7 @@ title: WatchEXP
 ---
 
 **Author:** Praenuntiae (ported by Vicrelant)<br/>
-**Link:** [http://git.ashitaxi.com/Plugins/WatchEXP](http://git.ashitaxi.com/Plugins/WatchEXP)
+**Link:** [https://git.ashitaxi.com/Plugins/WatchEXP](https://git.ashitaxi.com/Plugins/WatchEXP)
 
 WatchEXP allows you to watch how much EXP or Merit Points you're gaining, as well as shows other information such as time left in abyssea, lights accrued and dynamis time extensions.
 

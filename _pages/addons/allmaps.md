@@ -4,7 +4,7 @@ title: AllMaps
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/allmaps](http://git.ashitaxi.com/Addons/allmaps)
+**Link:** [https://git.ashitaxi.com/Addons/allmaps](https://git.ashitaxi.com/Addons/allmaps)
 
 Enables players to see all maps via the /map command without owning the key item required to normally see it.
 

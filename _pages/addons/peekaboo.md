@@ -4,7 +4,7 @@ title: Peekaboo
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/peekaboo](http://git.ashitaxi.com/Addons/peekaboo)
+**Link:** [https://git.ashitaxi.com/Addons/peekaboo](https://git.ashitaxi.com/Addons/peekaboo)
 
 Allows players to see all objects regardless if they are rendered currently or not.
 

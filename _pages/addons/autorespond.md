@@ -4,7 +4,7 @@ title: Auto Respond
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/autorespond](http://git.ashitaxi.com/Addons/autorespond)
+**Link:** [https://git.ashitaxi.com/Addons/autorespond](https://git.ashitaxi.com/Addons/autorespond)
 
 A simple addon that will automatically respond to tells with a desired message when enabled.
 

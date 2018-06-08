@@ -4,7 +4,7 @@ title: Repeater
 ---
 
 **Author:** bluekirby0<br/>
-**Link:** [http://git.ashitaxi.com/Addons/repeater](http://git.ashitaxi.com/Addons/repeater)
+**Link:** [https://git.ashitaxi.com/Addons/repeater](https://git.ashitaxi.com/Addons/repeater)
 
 Allows a player to set a command to be repeated automatically.
 

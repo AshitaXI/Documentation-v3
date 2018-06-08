@@ -4,7 +4,7 @@ title: PetInfo
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/petinfo](http://git.ashitaxi.com/Addons/petinfo)
+**Link:** [https://git.ashitaxi.com/Addons/petinfo](https://git.ashitaxi.com/Addons/petinfo)
 
 Displays information about the players pet in a simple UI window.
 

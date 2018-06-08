@@ -4,7 +4,7 @@ title: Debuff
 ---
 
 **Author:** atom0s<br/>
-**Link:** [http://git.ashitaxi.com/Addons/debuff](http://git.ashitaxi.com/Addons/debuff)
+**Link:** [https://git.ashitaxi.com/Addons/debuff](https://git.ashitaxi.com/Addons/debuff)
 
 Allows players to cancel buffs/debuffs via a slash command.
 
