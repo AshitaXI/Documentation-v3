@@ -74,7 +74,7 @@ Interested in helping out and need to run locally? You can follow [this](http://
   4. Run the command: `gem install bundler` to install the Bundler gem.
   5. Run the command: `bundle install` to allow the bundler gem to install any missing gems.
   6. Run the command: `bundle update` to ensure all gems are up to date.
-  6. Run the command: `bundle exec jekyll serve` to run Jekyll and serve the site.
+  7. Run the command: `bundle exec jekyll serve --b=""` to run Jekyll and serve the site. _(We use `--b=""` to reset the base url so that the navigation links are not double-slashed while hosting locally.)_
 
 At this point, your console should output something about the server running, such as: `Server address: http://127.0.0.1:4000/` which you can open in your browser to see the running Jekyll output.
 
