@@ -82,6 +82,12 @@ pre.highlight {
     padding: .7em 1em !important;
 }
 
+.page__content {
+    ul > li > ul > li {
+        font-size: 1em !important;
+    }
+}
+
 /**
  * Notice Box Overrides
  */
@@ -100,6 +106,19 @@ pre.highlight {
 .notice--warning {
     background-color    : #fff3cd !important;
     border-color        : #ffeeba !important;
+}
+
+.page__content {
+    div {
+        .notice--danger, 
+        .notice--info, 
+        .notice--success, 
+        .notice--warning {
+            p, ul, ol, li {
+                font-size: 0.9em;
+            }
+        }
+    }
 }
 
 /**
