@@ -1,0 +1,19 @@
+<div class="page__footer-follow">
+    <ul class="social-icons">
+      {% if site.author.home %}
+        <li><a href="{{ site.author.home }}"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+        &bull;
+      {% endif %}
+      {% if site.data.ui-text[site.locale].follow_label %}
+        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        &bull;
+      {% endif %}
+      {% if site.author.github %}
+        <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        &bull;
+      {% endif %}
+        <li><a href="https://github.com/{{site.repository}}/blob/master/{{page.path}}"><i class="fas fa-edit" aria-hidden="true"></i> Edit this page</a></li>
+    </ul>
+  </div>
+  
+  <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
