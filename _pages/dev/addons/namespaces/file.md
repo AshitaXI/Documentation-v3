@@ -109,3 +109,5 @@ Square Enix Entity Ids:
   * 3 - Tetra Master
 {% endcapture %}
 <div class="notice--info">{{ notice-get_install_dir | markdownify }}</div>
+
+---
