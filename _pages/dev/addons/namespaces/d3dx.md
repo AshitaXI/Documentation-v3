@@ -420,6 +420,15 @@ Saves a surface to a file.
 function ashita.d3dx.SaveSurfaceToFileA(dstFile, dstFormat, srcSurface, srcPalette, srcRect);
 ```
 
+ * **Parameters**
+   * dstFile - (string) The path to the file to save the surface to.
+   * dstFormat - (number) The file format to save the surface as.
+   * srcSurface - (object) The source surface object to save.
+   * srcPalette - (table) The surface palette to save with. (Can be nil.)
+   * srcRect - (object) The source RECT of the surface to save.
+ * **Returns**
+   * number - The HRESULT of the call.
+
 ---
 
 ### CreateTextureFromFileA
@@ -428,6 +437,12 @@ Creates a texture from a file.
 ```lua
 function ashita.d3dx.CreateTextureFromFileA(file);
 ```
+
+ * **Parameters**
+   * file - (string) The path to the texture file to load.
+ * **Returns**
+   * number - The HRESULT of the call.
+   * object\|nil - The wrapped texture object on success, nil otherwise.
 
 ---
 
@@ -438,6 +453,21 @@ Creates a texture from a file.
 function ashita.d3dx.CreateTextureFromFileExA(file, width, height, mipLevels, usage, format, pool, filter, mipFilter, colorKey);
 ```
 
+ * **Parameters**
+   * file - (string) The path to the texture file to load.
+   * width - (number) The texture width.
+   * height - (number) The texture height.
+   * mipLevels - (number) The texture mip level count.
+   * usage - (number) The texture usage type.
+   * format - (number) The format of the texture.
+   * pool - (number) The pool usage type.
+   * filter - (number) The flags controlling how the image is filtered.
+   * mipFilter - (number) The flags controlling how the image is filtered.
+   * colorKey - (number) The D3DCOLOR to replace with transparent black.
+ * **Returns**
+   * number - The HRESULT of the call.
+   * object\|nil - The wrapped texture object on success, nil otherwise.
+
 ---
 
 ### CreateTextureFromFileInMemory
@@ -446,6 +476,13 @@ Creates a texture from a file in memory.
 ```lua
 function ashita.d3dx.CreateTextureFromFileInMemory(srcData, srcDataSize);
 ```
+
+ * **Parameters**
+   * srcData - (number) Pointer address to the texture in memory.
+   * srcDataSize - (number) The size of the texture.
+ * **Returns**
+   * number - The HRESULT of the call.
+   * object\|nil - The wrapped texture object on success, nil otherwise.
 
 ---
 
@@ -456,6 +493,22 @@ Creates a texture from a file in memory.
 function ashita.d3dx.CreateTextureFromFileInMemoryEx(srcData, srcDataSize, width, height, mipLevels, usage, format, pool, filter, mipFilter, colorKey);
 ```
 
+ * **Parameters**
+   * srcData - (number) Pointer address to the texture in memory.
+   * srcDataSize - (number) The size of the texture.
+   * width - (number) The texture width.
+   * height - (number) The texture height.
+   * mipLevels - (number) The texture mip level count.
+   * usage - (number) The texture usage type.
+   * format - (number) The format of the texture.
+   * pool - (number) The pool usage type.
+   * filter - (number) The flags controlling how the image is filtered.
+   * mipFilter - (number) The flags controlling how the image is filtered.
+   * colorKey - (number) The D3DCOLOR to replace with transparent black.
+ * **Returns**
+   * number - The HRESULT of the call.
+   * object\|nil - The wrapped texture object on success, nil otherwise.
+
 ---
 
 ### SaveTextureToFileA
@@ -465,6 +518,14 @@ Saves a texture to a file.
 function ashita.d3dx.SaveTextureToFileA(file, dstFormat, srcTexture, srcPalette);
 ```
 
+ * **Parameters**
+   * file - (string) The path to the file to save the texture to.
+   * dstFormat - (number) The format to save the texture as.
+   * srcTexture - (object) The texture to save.
+   * srcPalette - (table) The texture palette to use while saving. (Can be nil.)
+ * **Returns**
+   * number - The HRESULT of the call.
+
 ---
 
 ### GetErrorStringA
@@ -473,6 +534,12 @@ Converts a Direct3D HRESULT error into its string representation.
 ```lua
 function ashita.d3dx.GetErrorStringA(error);
 ```
+
+ * **Parameters**
+   * error - (number) The HRESULT to translate to a string.
+ * **Returns**
+   * number - The HRESULT of the call.
+   * string\|nil - The converted HRESULT value to its string representation, nil on error.
 
 ---
 
@@ -485,6 +552,11 @@ Creates an identity matrix.
 function ashita.d3dx.MatrixIdentity(matrix);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to set.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixIsIdentity
@@ -493,6 +565,11 @@ Checks if the given matrix is an identity matrix.
 ```lua
 function ashita.d3dx.MatrixIsIdentity(matrix);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to test.
+ * **Returns**
+   * bool - True if identity, false otherwise.
 
 ---
 
@@ -503,6 +580,11 @@ Returns the determinant of a matrix.
 function ashita.d3dx.MatrixfDeterminant(matrix);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use.
+ * **Returns**
+   * number - The matrix determinant.
+
 ---
 
 ### MatrixTranspose
@@ -512,6 +594,11 @@ Returns the matrix transpose of a matrix.
 function ashita.d3dx.MatrixTranspose(matrix, matrixIn);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * matrixIn - (object) The source matrix.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -522,6 +609,13 @@ Determines the product of two matrices.
 function ashita.d3dx.MatrixMultiply(matrix, matrix1, matrix2);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * matrix1 - (object) The source matrix.
+   * matrix2 - (object) The source matrix.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixMultiplyTranspose
@@ -530,6 +624,13 @@ Determines the product of two matrices, followed by a transpose.
 ```lua
 function ashita.d3dx.MatrixMultiplyTranspose(matrix, matrix1, matrix2);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * matrix1 - (object) The source matrix.
+   * matrix2 - (object) The source matrix.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -540,6 +641,13 @@ Calculates the inverse of a matrix.
 function ashita.d3dx.MatrixInverse(matrix, matrixIn);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * matrixIn - (object) The source matrix.
+ * **Returns**
+   * object - The result matrix.
+   * number - The result determinant.
+
 ---
 
 ### MatrixScaling
@@ -548,6 +656,14 @@ Builds a matrix that scales along the x-, y-, and z-axes.
 ```lua
 function ashita.d3dx.MatrixScaling(matrix, sx, sy, sz);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * sx - (number) The scaling factor applied to the x-axis.
+   * sy - (number) The scaling factor applied to the y-axis.
+   * sz - (number) The scaling factor applied to the z-axis.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -558,6 +674,14 @@ Builds a matrix using the specified offsets.
 function ashita.d3dx.MatrixTranslation(matrix, x, y, z);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * x - (number) The x-coord offset.
+   * y - (number) The y-coord offset.
+   * z - (number) The z-coord offset.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixRotationX
@@ -566,6 +690,12 @@ Builds a matrix that rotates around the x-axis.
 ```lua
 function ashita.d3dx.MatrixRotationX(matrix, angle);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * angle - (number) The angle of rotation in radians.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -576,6 +706,12 @@ Builds a matrix that rotates around the y-axis.
 function ashita.d3dx.MatrixRotationY(matrix, angle);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * angle - (number) The angle of rotation in radians.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixRotationZ
@@ -584,6 +720,12 @@ Builds a matrix that rotates around the z-axis.
 ```lua
 function ashita.d3dx.MatrixRotationZ(matrix, angle);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * angle - (number) The angle of rotation in radians.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -594,6 +736,13 @@ Builds a matrix that rotates around an arbitrary axis.
 function ashita.d3dx.MatrixRotationAxis(matrix, vec3, angle);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * vec3 - (object) The D3DXVECTOR3 that identifies the axis angle.
+   * angle - (number) The angle of rotation in radians.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixRotationQuaternion
@@ -602,6 +751,12 @@ Builds a matrix from a quaternion.
 ```lua
 function ashita.d3dx.MatrixRotationQuaternion(matrix, quarternion);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * quarternion - (object) The D3DXQUATERNION that identifies the rotation.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -612,6 +767,14 @@ Builds a matrix with a specified yaw, pitch, and roll.
 function ashita.d3dx.MatrixRotationYawPitchRoll(matrix, yaw, pitch, roll);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * yaw - (number) The yaw around the y-axis. (In radians.)
+   * pitch - (number) The pitch around the x-axis. (In radians.)
+   * roll - (number) The roll around the z-axis. (In radians.)
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixTransformation
@@ -620,6 +783,17 @@ Builds a transformation matrix.
 ```lua
 function ashita.d3dx.MatrixTransformation(matrix, scalingCenter, scalingRotation, scaling, rotationCenter, rotation, translation);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * scalingCenter - (object) The D3DXVECTOR3 identifying the center point.
+   * scalingRotation - (object) The D3DXQUATERNION that specifies the scaling rotation.
+   * scaling - (object) The D3DXVECTOR3 scaling vector.
+   * rotationCenter - (object) The D3DXVECTOR3 that specifies the center of rotation.
+   * rotation - (object) The D3DXQUATERNION that specifies the rotation.
+   * translation - (object) The D3DXVECTOR3 that specifies the translation.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -630,6 +804,15 @@ Builds an affine transformation matrix.
 function ashita.d3dx.MatrixAffineTransformation(matrix, scaling, rotationCenter, rotation, translation);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * scaling - (number) The scaling factor.
+   * rotationCenter - (object) The D3DXVECTOR3 that specifies the center of rotation.
+   * rotation - (object) The D3DXQUATERNION that specifies the rotation.
+   * translation - (object) The D3DXVECTOR3 that specifies the translation.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixLookAtRH
@@ -638,6 +821,14 @@ Builds a right-handed look-at matrix.
 ```lua
 function ashita.d3dx.MatrixLookAtRH(matrix, eye, at, up);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * eye - (object) The D3DXVECTOR3 that defines the eye point.
+   * at - (object) The D3DXVECTOR3 that defines the camera look-at target.
+   * up - (object) The D3DXVECTOR3 that defines the current world's up.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -648,6 +839,14 @@ Builds a left-handed look-at matrix.
 function ashita.d3dx.MatrixLookAtLH(matrix, eye, at, up);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * eye - (object) The D3DXVECTOR3 that defines the eye point.
+   * at - (object) The D3DXVECTOR3 that defines the camera look-at target.
+   * up - (object) The D3DXVECTOR3 that defines the current world's up.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixPerspectiveRH
@@ -656,6 +855,15 @@ Builds a right-handed perspective projection matrix.
 ```lua
 function ashita.d3dx.MatrixPerspectiveRH(matrix, w, h, zn, zf);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * w - (number) The width of the view volume at the near view-plane.
+   * h - (number) The height of the view volume at the near view-plane.
+   * zn - (number) The Z of the near view-plane.
+   * zf - (number) The Z of the far view-plane.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -666,6 +874,15 @@ Builds a left-handed perspective projection matrix
 function ashita.d3dx.MatrixPerspectiveLH(matrix, w, h, zn, zf);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * w - (number) The width of the view volume at the near view-plane.
+   * h - (number) The height of the view volume at the near view-plane.
+   * zn - (number) The Z of the near view-plane.
+   * zf - (number) The Z of the far view-plane.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixPerspectiveFovRH
@@ -674,6 +891,15 @@ Builds a right-handed perspective projection matrix based on a field of view (FO
 ```lua
 function ashita.d3dx.MatrixPerspectiveFovRH(matrix, fovy, aspect, zn, zf);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * fovy - (number) The field of view, in radians.
+   * aspect - (number) The aspect ratio.
+   * zn - (number) The Z of the near view-plane.
+   * zf - (number) The Z of the far view-plane.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -684,6 +910,15 @@ Builds a left-handed perspective projection matrix based on a field of view (FOV
 function ashita.d3dx.MatrixPerspectiveFovLH(matrix, fovy, aspect, zn, zf);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * fovy - (number) The field of view, in radians.
+   * aspect - (number) The aspect ratio.
+   * zn - (number) The Z of the near view-plane.
+   * zf - (number) The Z of the far view-plane.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixPerspectiveOffCenterRH
@@ -692,6 +927,17 @@ Builds a customized, right-handed perspective projection matrix.
 ```lua
 function ashita.d3dx.MatrixPerspectiveOffCenterRH(matrix, l, r, b, t, zn, zf);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * l - (number) Minimum x-value of the view volume.
+   * r - (number) Maximum x-value of the view volume.
+   * b - (number) Minimum y-value of the view volume.
+   * t - (number) Maximum y-value of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -702,6 +948,17 @@ Builds a customized, left-handed perspective projection matrix.
 function ashita.d3dx.MatrixPerspectiveOffCenterLH(matrix, l, r, b, t, zn, zf);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * l - (number) Minimum x-value of the view volume.
+   * r - (number) Maximum x-value of the view volume.
+   * b - (number) Minimum y-value of the view volume.
+   * t - (number) Maximum y-value of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixOrthoRH
@@ -710,6 +967,15 @@ Builds a right-handed orthogonal projection matrix.
 ```lua
 function ashita.d3dx.MatrixOrthoRH(matrix, w, h, zn, zf);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * w - (number) The width of the view volume.
+   * h - (number) The height of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -720,6 +986,15 @@ Builds a left-handed orthogonal projection matrix.
 function ashita.d3dx.MatrixOrthoLH(matrix, w, h, zn, zf);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * w - (number) The width of the view volume.
+   * h - (number) The height of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixOrthoOffCenterRH
@@ -728,6 +1003,17 @@ Builds a customized, right-handed orthogonal projection matrix.
 ```lua
 function ashita.d3dx.MatrixOrthoOffCenterRH(matrix, l, r, b, t, zn, zf);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * l - (number) Minimum x-value of the view volume.
+   * r - (number) Maximum x-value of the view volume.
+   * b - (number) Minimum y-value of the view volume.
+   * t - (number) Maximum y-value of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
 
 ---
 
@@ -738,6 +1024,17 @@ Builds a customized, left-handed orthogonal projection matrix.
 function ashita.d3dx.MatrixOrthoOffCenterLH(matrix, l, r, b, t, zn, zf);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * l - (number) Minimum x-value of the view volume.
+   * r - (number) Maximum x-value of the view volume.
+   * b - (number) Minimum y-value of the view volume.
+   * t - (number) Maximum y-value of the view volume.
+   * zn - (number) Minimum z-value of the view volume.
+   * zf - (number) Maximum z-value of the view volume.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixShadow
@@ -747,6 +1044,13 @@ Builds a matrix that flattens geometry into a plane.
 function ashita.d3dx.MatrixShadow(matrix, light, plane);
 ```
 
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * light - (object) The D3DXVECTOR4 describing the lights position.
+   * plane - (object) The D3DXPLANE of the source.
+ * **Returns**
+   * object - The result matrix.
+
 ---
 
 ### MatrixReflect
@@ -755,5 +1059,11 @@ Builds a matrix that reflects the coordinate system about a plane.
 ```lua
 function ashita.d3dx.MatrixReflect(matrix, plane);
 ```
+
+ * **Parameters**
+   * matrix - (object) The D3DXMATRIX to use for the result.
+   * plane - (object) The D3DXPLANE of the source.
+ * **Returns**
+   * object - The result matrix.
 
 ---
