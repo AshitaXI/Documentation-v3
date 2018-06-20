@@ -246,7 +246,7 @@ devnav_addons:
         url: /dev/addons/functions/
       - title: "Namespaces"
         url: /dev/addons/namespaces/
-      - title: Custom Types
+      - title: Custom Enums & Types
         url: /dev/addons/customtypes/
       - title: "Using Libs"
         url: /dev/addons/usinglibs/
