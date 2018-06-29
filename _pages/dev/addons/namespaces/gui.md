@@ -413,3 +413,246 @@ imgui.SetNextWindowSizeConstraints(0, 0, float_max, float_max, 'SquareResizeCons
 ```
 
 ---
+
+## ImGuiSizeConstraintCallbackData
+
+The ImGuiSizeConstraintCallbackData structure contains information used for window resizing callbacks. This allows users to adjust how their window(s) resize if they want to use certain constraints.
+
+The following data is exposed in this structure, to Lua addons:
+
+```cpp
+struct ImGuiSizeConstraintCallbackData
+{
+    ImVec2 Pos;         // The current window position, for reference. (Read Only)
+    ImVec2 CurrentSize; // The current window size, for reference. (Read Only)
+    ImVec2 DesiredSize; // The desired contraint to apply to the resizing of the window. (Based on the mouse position.)
+};
+```
+
+You should edit the DesiredSize field to constrain the window to your liking. This value takes an ImVec2 of two floats, for example:
+```lua
+DesiredSize = ImVec(200, 200);
+```
+
+### Example
+
+The following example would apply a sizing constraint to keep the window in a square shape. (Similar to aspect ratio resizing.)
+
+```lua
+function SquareResizeConstraint(data)
+    data.DesiredSize = ImVec2(math.max(data.DesiredSize.x, data.DesiredSize.y), math.max(data.DesiredSize.x, data.DesiredSize.y));    
+end
+ 
+imgui.SetNextWindowSizeConstraints(0, 0, float_max, float_max, 'SquareResizeConstraint');
+```
+
+---
+
+## ImGuiTextEditCallbackData
+
+The ImGuiTextEditCallbackData structure contains information used for an InputText callback function. This can be useful for determining the type of callback that was fired as well as what data was used to cause the callback. 
+
+The following data is exposed in this structure, to Lua addons:
+
+```cpp
+struct ImGuiTextEditCallbackData
+{
+    ImGuiInputTextFlags EventFlags;    // ImGuiInputTextFlags_Callback... value from the ImGuiInputTextFlags_ enumeration. (Read Only)
+    ImGuiInputTextFlags Flags;         // The flags of the input creation call. (Read Only)
+    bool                ReadOnly;      // The readonly flag of the input box. (Read Only)
+    ImWchar             EventChar;     // The character that was input.
+    ImGuiKey            EventKey;      // The key pressed to cause this event. (Read Only)
+    char*               Buf;           // The current buffer of text in the input.
+    int                 BufTextLen;    // The current length of text in buf.
+    int                 BufSize;       // Maximum length that buf can hold. (Read Only)
+    bool                BufDirty;      // Must be set to true if Buf or BufTextLen is modified.
+    int                 CursorPos;     // The current carrot position within the input text.
+    int                 SelectionStart;// The selection start position.
+    int                 SelectionEnd;  // The selection end position.
+     
+    void DeleteChars(int pos, int count);
+    void InsertChars(int pos, const char* new_text);
+    bool HasSelection();
+};
+```
+
+Some fields are read-only and cannot be edited.
+
+If you edit the 'Buf' field, you must update the BufTextLen to the new length as well as set BufDirty to true in order for it to be properly updated. To do this easily you can make use of the DeleteChars and InsertChars functions which will handle the property adjustments for you.
+
+You may also want to set CursorPos to the end of the string for a more expected result.
+
+---
+
+## ImGui IO Table
+
+The ImGui IO table holds various I/O related properties and information about the current state of ImGui.
+
+You can access this table via:
+
+```lua
+-- Includes the various defintions and such for ImGui, also adding the imgui global..
+require 'imguidef';
+
+-- Obtain the io table..
+local io = imgui.io;
+```
+
+**Please Note:** The imgui.io table differs from the main imgui functions! Please be sure to read the following notes carefully!!
+{: .notice--warning}
+
+The imgui.io table differs from the functions found within the 'imgui' table. The io table is implemented in a different manner and can make use of certain types such as ImVec2, ImVec4, etc. Because of this, things are used a little differently. But it should be straight forward enough.
+
+Here are some examples of how you can make use of the imgui.io table properties:
+
+```lua
+-- Getting the display size.. (ImVec2)
+local display_x = imgui.io.DisplaySize.x;
+local display_y = imgui.io.DisplaySize.y;
+ 
+-- Setting the display size.. (ImVec2)
+imgui.io.DisplaySize = ImVec2(100, 100);
+ 
+-- Obtaining if the left mouse button is down..
+local isMouseDown = imgui.io.MouseDown[0];
+ 
+-- Setting if the left mouse button is down manually..
+local mouseDown = imgui.io.MouseDown;
+mouseDown[0] = true;
+imgui.io.MouseDown = mouseDown;
+```
+
+Any property that is within an array must be done in the above manner. You cannot directly index these arrays and set their values. 
+You must pull the array, edit it, then reset the full array to make changes.
+
+---
+
+## ImGui IO Table Properties
+
+The table holds the following properties:
+
+  * ImVec2 DisplaySize - _The current display size for ImGui to render within._
+  * float DeltaTime - _Time elapsed since the last frame._
+  * float IniSavingRate - _Maximum time between saving current window positions._
+  * const char* IniFilename - _The path to the imgui.ini file._
+  * const char* LogFilename - _The path to the imgui_log.txt file._
+  * float MouseDoubleClickTime - _Time for a double-click to register._
+  * float MouseDoubleClickMaxDist - _Distance threshold to stay in to validate a double-click (in pixels)._
+  * float MouseDragThreshold - _Distance threshold to before considering we are dragging._
+  * int KeyMap[19] - _Map of indices into the KeysDown entries array. (Used to translate key codes.)_
+  * float KeyRepeatDelay - _Time before a key begins repeating while being held down._
+  * float KeyRepeatRate - _Time between each key repeat while being held down._
+  * void* UserData - _Custom defined user data._
+  * ImFontAtlas* Fonts - _Current atlas of loaded fonts. (Not implemented for Lua usage.)_
+  * float FontGlobalScale - _Global scale for all fonts to use._
+  * bool FontAllowUserScaling - _Allows users to scroll in and out of ImGui when enabled._
+  * ImVec2 DisplayFramebufferScale - _Used for retina displays where window coords differ from frame buffer coords._
+  * ImVec2 DisplayVisibleMin - _Not used._
+  * ImVec2 DisplayVisibleMax - _Not used._
+  * bool WordMovementUsesAltKey - _Not used._
+  * bool ShortcutsUseSuperKey - _Not used._
+  * bool DoubleClickSelectsWord - _Not used._
+  * bool MultiSelectUsesSuperKey - _Not used._
+  * ImVec2 MousePos - _The current position of the mouse._
+  * bool MouseDown[5] - _Current mouse button states. (Starts at index 0: left, right, middle, +extras)_
+  * float MouseWheel - _Current mouse wheel rotation offset._
+  * bool MouseDrawCursor - _Enables ImGui to render a cursor._
+  * bool KeyCtrl - _Flag that is true if Ctrl is pressed._
+  * bool KeyShift - _Flag that is true if Shift is pressed._
+  * bool KeyAlt - _Flag that is true if Alt is pressed._
+  * bool KeySuper - _Flag that is true if Windows key is pressed._
+  * bool KeysDown[512] - _Array of flags set to true if various keys are down._
+  * ImWchar InputCharacters[16 + 1] - _List of characters currently being input._
+  * bool WantCaptureMouse - _Flag that is true if ImGui is currently capturing the mouse._
+  * bool WantCaptureKeyboard - _Flag that is true if ImGui is currently capturing the keyboard._
+  * bool WantTextInput - _Flag that is true if ImGui is currently capturing input._
+  * float Framerate - _Estimated frames per second._
+  * int MetricsAllocs - _Number of current memory allocations._
+  * int MetricsRenderVertices - _Number of current vertices being rendered._
+  * int MetricsRenderIndices - _Number of indices being rendered._
+  * int MetricsActiveWindows - _Number of windows that are currently active._
+  * ImVec2 MousePosPrev - _The previous mouse position during the last frame._
+  * ImVec2 MouseDelta - _The current mouse delta._
+  * bool MouseClicked[5] - _Array of flags that determine if a mouse button was clicked since the last frame._
+  * ImVec2 MouseClickedPos[5] - _Array of positions that hold where a given button clicked since the last frame._
+  * float MouseClickedTime[5] - _Array of times that hold when a given button was clicked since the last frame._
+  * bool MouseDoubleClicked[5] - _Array of flags that hold if a mouse button was double clicked since the last frame._
+  * bool MouseReleased[5] - _Array of flags that hold if a mouse button was released since the last frame._
+  * bool MouseDownOwned[5] - _Array of flags that hold if a click started within an ImGui controls space since the last frame._
+  * float MouseDownDuration[5] - _Array of time that holds the duration since a mouse button was clicked down._
+  * float MouseDownDurationPrev[5] - _Array of time that holds the duration since a mouse button was clicked down (previously)._
+  * float MouseDragMaxDistanceSqr[5] - _Array of distance (square rooted) that the mouse has traveled since a mouse click._
+  * float KeysDownDuration[512] - _Array of time that holds the duration of a key down._
+  * float KeysDownDurationPrev[512] - _Array of time that holds the duration of a key down (previously)._
+
+---
+
+## ImGui Style Table
+
+The ImGui Style table the current visual style of ImGui and the various properties that can alter it.
+
+You can access this table via:
+
+```lua
+-- Includes the various defintions and such for ImGui, also adding the imgui global..
+require 'imguidef';
+
+-- Obtain the style table..
+local style = imgui.style;
+```
+
+**Please Note:** The imgui.style table differs from the main imgui functions! Please be sure to read the following notes carefully!!
+{: .notice--warning}
+
+The imgui.style table differs from the functions found within the 'imgui' table. The style table is implemented in a different manner and can make use of certain types such as ImVec2, ImVec4, etc. Because of this, things are used a little differently. But it should be straight forward enough.
+
+Here are some examples of how you can make use of the imgui.style table properties:
+
+```lua
+-- Obtain the style table..
+local s = imgui.style;
+ 
+-- Set the rounding properties to 0..
+s.GrabRounding = 0;
+s.FrameRounding = 0;
+s.ScrollbarRounding = 0;
+s.WindowRounding = 0;
+ 
+-- Set a color to black..
+local colors = imgui.style.Colors;
+colors[ImGuiCol_WindowBg] = ImVec4(0.0, 0.0, 0.0, 1.0);
+imgui.style.Colors = colors;
+```
+
+Any property that is within an array must be done in the above manner. You cannot directly index these arrays and set their values. 
+You must pull the array, edit it, then reset the full array to make changes.
+
+---
+
+## ImGui Style Table Properties
+
+The table holds the following properties:
+
+  * float Alpha - _Global alpha amount that applies to the entire ImGui rendering._
+  * ImVec2 WindowPadding - _The default window padding applied to windows._
+  * ImVec2 WindowMinSize - _The minimum window size._
+  * float WindowRounding - _The amount of rounding to apply to the window corners._
+  * ImVec2 WindowTitleAlign - _The alignment of the title of a window._
+  * float ChildWindowRounding - _Child window corner rounding._
+  * ImVec2 FramePadding - _Padding applied to framed rectangles._
+  * float FrameRounding - _Rounding applied to framed rectangles._
+  * ImVec2 ItemSpacing - _The amount of spacing between widgets and lines._
+  * ImVec2 ItemInnerSpacing - _The amount of spacing within elements of a composed widget. (ex. label inside of a slider.)_
+  * ImVec2 TouchExtraPadding - _Padding added to controls to enhance touch usage. (Not used.)_
+  * float IndentSpacing - _Default horizontal indentation amount._
+  * float ColumnsMinSpacing - _Minimum horizontal spacing between two columns._
+  * float ScrollbarSize - _Default size of a scroll bar. (Width if vertical, Height if horizontal.)_
+  * float ScrollbarRounding - _The amount of rounding to apply to scrollbar corners._
+  * float GrabMinSize - _Minimum width/height of a grab box for sliders / scrollbars._
+  * float GrabRounding - _The amount of rounding to apply to grips._
+  * ImVec2 DisplayWindowPadding - _Window positions are clamped to be visible within the display area by at least this amount. Only covers regular windows._
+  * ImVec2 DisplaySafeAreaPadding - _If you cannot see the edge of your screen (e.g. on a TV) increase the safe area padding. Covers popups/tooltips as well regular windows._
+  * bool AntiAliasedLines - _Enable anti-aliasing on lines / borders._
+  * bool AntiAliasedShapes - _Enable anti-aliasing on filled shapes._
+  * float CurveTessellationTol - _Tessellation tolerance. Decrease for highly tessellated curves (higher quality, more polygons), increase to reduce quality._
+  * ImVec4 Colors[43] - _Array of colors used by ImGui to render the theme. (See the list of ImGuiCol\_ properties in the imgui.lua library file for more info.)_
