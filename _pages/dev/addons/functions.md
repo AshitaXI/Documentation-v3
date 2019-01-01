@@ -23,7 +23,7 @@ function AddIncomingPacket(id, packet);
 
 ---
 
-### AddIncomingPacket
+### AddOutgoingPacket
 
 Sends a packet to the server as if the client had sent it.
 ```lua
