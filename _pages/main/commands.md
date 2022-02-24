@@ -271,6 +271,9 @@ Syntax:
 ## Input Device Commands
 
 ### gamepad
+
+**NOTE**: If you are using an XInput based gamepad, then you need to disable it in the pad config tool. If you're using a Dinput controller, then you can use the Ashita gamepad command to turn it off.
+
 Syntax:
 ```
 /gamepad allowbackground
