@@ -1,6 +1,6 @@
 # Ashita Documentation
 
-Source code and information to the Ashita v3 documentation website. [https://docsv3.ashitaxi.com](https://docs.ashitaxi.com/)
+Source code and information to the Ashita v3 documentation website. [https://docsv3.ashitaxi.com](https://docsv3.ashitaxi.com/)
 
 Support and discussions regarding this repository and Ashita should be handled on our Discord here: [Click Here](https://discordapp.com/invite/CfZu6Ya)
 
